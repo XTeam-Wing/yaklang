@@ -8,7 +8,7 @@ import (
 	"github.com/yaklang/yaklang/common/log"
 	"github.com/yaklang/yaklang/common/utils"
 
-	mssql "github.com/denisenkom/go-mssqldb"
+	mssql "github.com/microsoft/go-mssqldb"
 )
 
 func MSSQLAuth(target, username, password string, needAuth bool) (ok, finished bool, err error) {
